@@ -1,0 +1,820 @@
+.gallery {
+    text-align: center;
+    position: relative;
+    align-items: center;
+    margin-top: -100px;
+  }
+  
+.nav {
+    margin-top: 10px;
+  }
+  
+button {
+    background-color: white;
+    color:  #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #555;
+  }
+
+#currentImg {
+    transition: transform 0.5s ease-in-out;
+  }
+
+.Picture {
+    display: inline;
+    align-items: center;
+    align-content: center;
+}
+
+.fix1{
+    height: 300px;
+    max-width: 500px;
+    margin: 50px;
+    color: white;
+    filter: brightness(20%);
+}
+
+.fix2{
+    height: 300px;
+    max-width: 500px;
+    margin: 50px;
+    color: white;
+}
+
+.fix3{
+    height: 300px;
+    max-width: 500px;
+    margin: 50px;
+    color: white;
+    filter: brightness(20%);
+}
+body{
+    background-color: #0b1522;
+    margin: 0px;
+    position: relative;
+}
+.WP{
+    color: white;
+    font-size: 100px;
+    font-family: "Annapurna SIL", serif;
+    
+}
+.l34{
+    color: rgb(240, 123, 201);
+    font-size: 100px;
+    font-style: oblique;
+    font-family: "Charmonman", cursive;
+    margin-top: -80px;
+}
+
+.phon{
+    margin: 10px;
+}
+
+.meow{
+    display: inline;
+    margin-top: 10px;
+}
+
+.code{
+    color: white;
+    font-size: 20px;
+}
+
+.redeem{
+    background-color: rgb(0, 238, 0);
+
+}
+
+.inputcode{
+    height: 30px;
+    border-color: white;
+    background-color: #0b1522;
+    color: white;
+    margin-right: 10px;
+}
+.letter{
+    position: fixed;
+    background-color: white;
+    height: 700px;
+    width: 1000px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.cancel{
+    position: fixed;
+    font-size: 50px;
+    right: 0px;
+    top: 0px;
+    z-index: 0;
+    color: red;
+    text-decoration: none;
+    background-color: none;
+}
+.text{
+  font-size: 16px;
+}
+
+#message-box {
+    display: none;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    background-image: url(pngtree-abstract-background---white-blank-wrinkled-paper-texture-photo-image_2214211.jpg);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  #message-box h2 {
+    margin-top: 0;
+  }
+  #btn-show-message {
+    margin-top: 20px;
+  }
+  .close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: red;
+    font-size: 30px;
+    background-image: url(pngtree-abstract-background---white-blank-wrinkled-paper-texture-photo-image_2214211.jpg);
+  }
+  .goodbye{
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+  }
+  .from{
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+  }
+  .Part{
+    position: absolute;
+    right: 0%;
+    top: 10%;
+  }
+  .lala
+  {
+    height: 200px;
+  }
+  .kaka
+  {
+    height: 200px;
+  }
+  .kala
+  {
+    height: 200px;
+  }
+  .laka{
+    height: 200px;
+  }
+  .Por{
+    position: absolute;
+    right: 15%;
+    top: 0%;
+  }
+  .Pneng{
+    position: absolute;
+    left: 15%;
+    top: 3%;
+  }
+  .kart{
+    position: absolute;
+    left: 3%;
+    top: 15%;
+  }
+  .cardandikk{
+    position: absolute;
+    top: 13%;
+    left: 28%;
+  }
+  .porandflim{
+    position: absolute;
+    left: -6%;
+    top: -10%;
+  }
+  .seaweed{
+    position: absolute;
+    left: 0%;
+    top: 40%;
+  }
+  .muda{
+    position: absolute;
+    right: 5%;
+    top: -10%;
+  }
+  .group1{
+    position: absolute;
+    right: 25%;
+    top: 13%;
+  }
+  .group2{
+    position: absolute;
+    right: 12%;
+    top: 22%;
+  }
+  .group3{
+    position: absolute;
+    left: 12%;
+    bottom: 12%;
+  }
+  .group4{
+    position: absolute;
+    right: 3%;
+    top: 40%;
+  }
+  .group5{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+  }
+  .group6{
+    position: absolute;
+    right: 0%;
+    bottom: 10%;
+  }
+  .pipe{
+    position: absolute;
+    right: 14%;
+    bottom: 4%;
+  }
+  .group7{
+    position: absolute;
+    left: 25%;
+    top: -10%;
+  }
+  .siw{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+  }
+  .group8{
+    position: absolute;
+    right: 20%;
+    top: 45%;
+  }
+  .ku{
+    position: absolute;
+    top:-23%;
+    left: 9%;
+  }
+  .group9{
+    position: absolute;
+    left: 25%;
+    bottom: 0%;
+  }
+  .group10{
+    position: absolute;
+    right: 28%;
+    bottom: 0%;
+  }
+  .group11{
+    position: absolute;
+    right: 25%;
+    top: -10%;
+  }
+  .mama{
+    height: 200px;
+  }
+  .jaja{
+    height: 200px;
+  }
+@media screen and (max-width: 1508px){
+  .fix1{
+    height: 0px;
+    width: 0px;
+    margin: 0px;
+    color: white;
+    filter: brightness(20%);
+}
+
+.fix3{
+    height: 0px;
+    width: 0px;
+    margin: 0px;
+    color: white;
+    filter: brightness(20%);
+}
+}
+
+
+@media screen and (max-width: 1899px){
+  .kaka{
+    height: 0px;
+}
+}
+@media screen and (max-width: 1840px){
+  .kala{
+    height: 0px;
+}
+}
+@media screen and (max-width: 1694px){
+  .group9{
+    position: absolute;
+    left: 28%;
+    bottom: 0%;
+}
+  .group1{
+    position: absolute;
+    right: 28%;
+    top: 13%;
+}
+}
+@media screen and (max-width: 1639px){
+  .Part{
+    position: absolute;
+    right: -1%;
+    top: 12%;
+}
+}
+@media screen and (max-width: 1507px){
+  .Part{
+    position: absolute;
+    right: 3%;
+    top: -3%;
+  }
+  .mama{
+    height: 0px;
+  }
+  .laka{
+    height: 0px;
+  }
+  .jaja{
+    height: 0px;
+  }
+  .kaka{
+    height: 200px;
+  }
+  .kala{
+    height: 280px;
+  }
+  .group9{
+    position: absolute;
+    left: 25%;
+    bottom: 0%;
+  }
+  .group10{
+    position: absolute;
+    right: 25%;
+    bottom: 0%;
+  }
+  .group11{
+    position: absolute;
+    left: 18%;
+    top: 12%;
+}
+.group7{
+  position: absolute;
+  left: 2%;
+  top: 65%;
+}
+.group1{
+  position: absolute;
+  right: 20%;
+  top: 13%;
+}
+.group2{
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+.group3{
+  position: absolute;
+  left: 15%;
+  bottom: 30%;
+}
+.group4{
+  position: absolute;
+  right: 20%;
+  top: 50%;
+}
+.group5{
+  position: absolute;
+  left: 0%;
+  bottom: 50%;
+}
+.group6{
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+}
+.Pneng{
+  position: absolute;
+  left: 3%;
+  top: -4%;
+}
+}
+@media screen and (max-width: 1447px){
+  .kaka{
+    height: 180px;
+  }
+  .kala{
+    height: 230px;
+  }
+  .lala{
+    height: 180px;
+  }
+}
+@media screen and (max-width: 1353px){
+  .kaka{
+    height: 160px;
+  }
+  .kala{
+    height: 210px;
+  }
+  .lala{
+    height: 160px;
+  }
+}
+@media screen and (max-width: 1150px){
+  .fix2{
+    height: 280px;
+    max-width: 500px;
+    margin: 50px;
+    color: white;
+    
+}
+.inputcode{
+  height: 20px;
+  border-color: white;
+  background-color: #0b1522;
+  color: white;
+  margin-right: 10px;
+}
+}
+@media screen and (max-width: 1115px){
+  .kaka{
+    height: 140px;
+  }
+  .kala{
+    height: 190px;
+  }
+  .lala{
+    height: 140px;
+  }
+}
+@media screen and (max-width: 1050px){
+  .group4{
+    position: absolute;
+    right: 15%;
+    top: 50%;
+  }
+  .group9{
+    position: absolute;
+    left: 18%;
+    bottom: 0%;
+  }
+  .group10{
+    position: absolute;
+    right: 22%;
+    bottom: 0%;
+  }
+  .group6{
+    position: absolute;
+    right: 3%;
+    bottom: 13%;
+  }
+}
+@media screen and (max-width: 1020px){
+  .kaka{
+    height: 120px;
+  }
+  .kala{
+    height: 170px;
+  }
+  .lala{
+    height: 120px;
+  }
+  .group11{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+  .Pneng{
+  position: absolute;
+  left: 3%;
+  top: -4%;
+}
+  .group3{
+  position: absolute;
+  left: 15%;
+  bottom: 35%;
+}
+}
+@media screen and (max-width: 956px){
+  .group1{
+    position: absolute;
+    right: 17%;
+    top: 13%;
+  }
+}
+@media screen and (max-width: 869px){
+  .group10{
+    position: absolute;
+    right: 17%;
+    bottom: 0%;
+  }
+  .WP{
+    color: white;
+    font-size: 80px;
+    font-family: "Annapurna SIL", serif;
+    
+}
+.l34{
+    color: rgb(240, 123, 201);
+    font-size: 80px;
+    font-style: oblique;
+    font-family: "Charmonman", cursive;
+    margin-top: -80px;
+}
+}
+@media screen and (max-width: 784px){
+  .group3{
+    position: absolute;
+    left: 10%;
+    bottom: 35%;
+  }
+  .group4{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+  }
+  .group1{
+    position: absolute;
+    right: 15%;
+    top: 13%;
+  }
+  .group11{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+}
+@media screen and (max-width: 733px){
+  .group9{
+    position: absolute;
+    left: 12%;
+    bottom: -5%;
+  }
+  .group10{
+    position: absolute;
+    right: 13%;
+    bottom: -3%;
+  }
+  .WP{
+    color: white;
+    font-size: 60px;
+    font-family: "Annapurna SIL", serif;
+    
+}
+.l34{
+    color: rgb(240, 123, 201);
+    font-size: 60px;
+    font-style: oblique;
+    font-family: "Charmonman", cursive;
+    margin-top: -80px;
+}
+.fix2{
+  height: 250px;
+  max-width: 500px;
+  margin: 50px;
+  color: white;
+  
+}
+.kaka{
+  height: 100px;
+}
+.kala{
+  height: 150px;
+}
+.lala{
+  height: 100px;
+}
+}
+@media screen and (max-width: 710px){
+  .group1{
+    position: absolute;
+    right: 12%;
+    top: 13%;
+  }
+}
+@media screen and (max-width: 642px){
+  .kaka{
+    height: 80px;
+  }
+  .kala{
+    height: 130px;
+  }
+  .lala{
+    height: 80px;
+  }
+  .group6{
+    position: absolute;
+    right: 3%;
+    bottom: 18%;
+  }
+  .group11{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+.fix2{
+  height: 200px;
+  max-width: 400px;
+  margin: 50px;
+  color: white;
+  
+}
+}
+@media screen and (max-width: 541px){
+  .group9{
+    position: absolute;
+    left: 8%;
+    bottom: -5%;
+  }
+  .group10{
+    position: absolute;
+    right: 8%;
+    bottom: 0%;
+  }
+  .Part{
+    position: absolute;
+    right: -2%;
+    top: -3%;
+  }
+  .Pneng{
+    position: absolute;
+    left: 0%;
+    top: -4%;
+  }
+}
+@media screen and (max-width: 500px){
+  .group9{
+    position: absolute;
+    left: 5%;
+    bottom: -5%;
+  }
+  .group10{
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+  }
+
+}
+@media screen and (max-width: 470px){
+  .group9{
+    position: absolute;
+    left: 0%;
+    bottom: -5%;
+  }
+  .group10{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+  }
+  .Part{
+    position: absolute;
+    right: -7%;
+    top: -3%;
+  }
+  .Pneng{
+    position: absolute;
+    left: -5%;
+    top: -4%;
+  }
+}
+@media screen and (max-width: 417px){
+  .Part{
+    position: absolute;
+    right: 20%;
+    top: 100%;
+  }
+  .Pneng{
+    position: absolute;
+    left: 25%;
+    top: 105%;
+  }
+  .group10{
+    position: absolute;
+    right: -5%;
+    bottom: 0%;
+  }
+  .group9{
+    position: absolute;
+    left: -5%;
+    bottom: -5%;
+  }
+  .group11{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+.group1{
+  position: absolute;
+  right: 5%;
+  top: 13%;
+}
+}
+@media screen and (max-width: 417px){
+  .group10{
+    position: absolute;
+    right: -10%;
+    bottom: 0%;
+  }
+  .group9{
+    position: absolute;
+    left: -10%;
+    bottom: -5%;
+  }
+}
+@media screen and (max-width: 480px){
+  #message-box {
+    display: none;
+    width: 400px;
+    height: 280px;
+    border: 1px solid #000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    background-image: url(pngtree-abstract-background---white-blank-wrinkled-paper-texture-photo-image_2214211.jpg);
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.text{
+  font-size: 12px;
+}
+}
+@media screen and (max-width: 415px){
+.fix2{
+  height: 250px;
+  max-width: 300px;
+  margin: 50px;
+  color: white;
+
+}
+.group3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.l34{
+  color: rgb(240, 123, 201);
+  font-size: 60px;
+  font-style: oblique;
+  font-family: "Charmonman", cursive;
+  margin-top: -50px;
+}
+.group1{
+  position: absolute;
+  right: 0%;
+  top: 13%;
+}
+}
+@media screen and (max-width: 381px){
+  .fix2{
+    height: 200px;
+    max-width: 250px;
+    margin: 50px;
+    color: white;
+    
+  }
+  }
+  @media screen and (max-width: 339px){
+    .lala{
+      height: 0px;
+    }
+    .kaka{
+      height: 0px;
+    }
+    .kala{
+      height: 0px;
+    }
+  
+}
+@media screen and (max-width: 284px){
+  .lala{
+    height: 0px;
+  }
+  .kaka{
+    height: 0px;
+  }
+  .kala{
+    height: 0px;
+  }
+}
